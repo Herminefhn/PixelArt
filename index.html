@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Editor</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div id="controls-top">
+        <input type="color" id="colorPicker" value="#000000">
+        <input type="number" id="gridSize" min="2" max="64" value="16" style="width: 60px;">
+        <button id="setSizeButton">Set Size</button>
+        <button id="eraserButton">Eraser</button>
+        <button id="drawButton">Draw</button>
+    </div>
+    <div id="grid"></div>
+    <div id="controls-bottom">
+        <button id="resetButton">Reset</button>
+        <button id="saveButton">Save</button>
+        <button id="loadButton">Load</button>
+        <button id="animateButton">Animate</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
